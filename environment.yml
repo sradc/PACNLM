@@ -16,6 +16,7 @@ dependencies:
   - backports=1.0=pyhd8ed1ab_3
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.2=pyha770c72_0
+  - black=23.1.0=py39hf3d152e_0
   - blas=1.0=mkl
   - bleach=6.0.0=pyhd8ed1ab_0
   - brotlipy=0.7.0=py39hb9d737c_1005
@@ -24,6 +25,7 @@ dependencies:
   - certifi=2022.12.7=pyhd8ed1ab_0
   - cffi=1.15.1=py39he91dace_3
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
+  - click=8.1.3=unix_pyhd8ed1ab_2
   - comm=0.1.2=pyhd8ed1ab_0
   - cryptography=39.0.2=py39h079d5ae_0
   - cuda=11.6.1=0
@@ -132,6 +134,7 @@ dependencies:
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mistune=2.0.5=pyhd8ed1ab_0
   - mkl=2023.0.0=h6d00ec8_25399
+  - mypy_extensions=1.0.0=pyha770c72_0
   - nbclassic=0.5.3=pyhb4ecaf3_3
   - nbclient=0.7.2=pyhd8ed1ab_0
   - nbconvert=7.2.9=pyhd8ed1ab_0
@@ -152,6 +155,7 @@ dependencies:
   - pandoc=2.19.2=h32600fe_2
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
+  - pathspec=0.11.0=pyhd8ed1ab_0
   - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
   - pillow=9.4.0=py39h2320bf1_1
@@ -194,6 +198,7 @@ dependencies:
   - terminado=0.17.1=pyh41d4057_0
   - tinycss2=1.2.1=pyhd8ed1ab_0
   - tk=8.6.12=h27826a3_0
+  - tomli=2.0.1=pyhd8ed1ab_0
   - torchaudio=0.13.1=py39_cu116
   - torchvision=0.14.1=py39_cu116
   - tornado=6.2=py39hb9d737c_1
@@ -215,16 +220,11 @@ dependencies:
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
   - pip:
-      - black==23.1.0
-      - click==8.1.3
       - filelock==3.9.0
       - huggingface-hub==0.13.1
-      - mypy-extensions==1.0.0
-      - pathspec==0.11.0
       - regex==2022.10.31
       - tokenize-rt==5.0.0
       - tokenizers==0.13.2
-      - tomli==2.0.1
       - tqdm==4.65.0
       - transformers==4.26.1
 prefix: /home/sid/miniconda3/envs/cnt
