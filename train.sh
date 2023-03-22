@@ -1,3 +1,9 @@
 #!/bin/bash
-jupyter nbconvert main.ipynb --to script  \
-    && ipython main.py
+set -e
+
+export SAVEDIR="data/train_$(date +%Y%m%d_%H%M%S)"
+jupyter nbconvert main.ipynb --to script
+mkdir "$SAVEDIR"
+mv main.py "$SAVEDIR"
+cp main.ipynb "$SAVEDIR"
+ipython "$SAVEDIR/main.py"
